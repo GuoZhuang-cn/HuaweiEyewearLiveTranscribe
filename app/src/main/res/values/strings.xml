@@ -8,6 +8,7 @@
     <string name="engine_cloud">引擎：云端 ASR</string>
     <string name="engine_xfyun">实时转写（讯飞大模型）</string>
     <string name="mode_save_wav">本地录音（保存 M4A）</string>
+    <string name="schedule_enable">每日定时自动录音</string>
     <string name="wav_saved">已保存：%1$s（%2$s）</string>
     <string name="listening">正在听…</string>
     <string name="idle">待机</string>
