@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">眼镜实时转写</string>
+    <string name="start">开始录音</string>
+    <string name="stop">结束</string>
+    <string name="hint_bt">请先连接智能眼镜，并打开：设置 → 声音和振动 → 更多声音和振动设置 → 蓝牙设备录音</string>
+    <string name="engine_debug">引擎：调试（电平+模拟字幕）</string>
+    <string name="engine_cloud">引擎：云端 ASR</string>
+    <string name="engine_xfyun">实时转写（讯飞大模型）</string>
+    <string name="mode_save_wav">本地录音（保存 M4A）</string>
+    <string name="wav_saved">已保存：%1$s（%2$s）</string>
+    <string name="listening">正在听…</string>
+    <string name="idle">待机</string>
+    <string name="paused_call">来电中，已暂停</string>
+    <string name="channel">输入通道</string>
+    <string name="level">音量</string>
+    <string name="transcript_label">实时字幕</string>
+</resources>
