@@ -3,7 +3,7 @@
     <string name="app_name">眼镜智记</string>
     <string name="start">开始录音</string>
     <string name="stop">结束录音</string>
-    <string name="hint_bt">使用前：连接智能眼镜，并打开 设置 → 声音和振动 → 蓝牙设备录音</string>
+    <string name="hint_bt">连接智能眼镜后使用：设置 → 声音和振动 → 蓝牙设备录音</string>
     <string name="mode_save_wav">保存 M4A 到本地</string>
     <string name="schedule_enable">定时自动录音</string>
     <string name="nutstore_enable">同步到坚果云</string>
@@ -15,4 +15,7 @@
     <string name="level">音量</string>
     <string name="log_label">录音日志</string>
     <string name="schedule_label">定时（北京时间）</string>
+    <string name="settings_title">设置</string>
+    <string name="view_log">查看日志</string>
+    <string name="open_settings">设置</string>
 </resources>

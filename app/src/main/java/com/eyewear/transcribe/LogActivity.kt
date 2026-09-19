@@ -15,6 +15,7 @@ class LogActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLogBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.root.setBackgroundColor(getColor(R.color.background))
 
         binding.btnBack.setOnClickListener { finish() }
         binding.btnRefresh.setOnClickListener { render() }
@@ -27,7 +28,6 @@ class LogActivity : AppCompatActivity() {
                 Toast.makeText(this, "清空失败: ${t.message}", Toast.LENGTH_SHORT).show()
             }
         }
-
         render()
     }
 

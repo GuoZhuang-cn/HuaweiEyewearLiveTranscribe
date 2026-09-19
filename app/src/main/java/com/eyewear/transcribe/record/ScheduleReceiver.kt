@@ -19,6 +19,7 @@ class ScheduleReceiver : BroadcastReceiver() {
         Log.i(TAG, "onReceive $action")
         when (action) {
             ACTION_SCHEDULE_STOP -> {
+                // 定时结束停录即可；开录在 MainActivity 处理
                 val f = RecordingSession.stop(app)
                 val time = RecordScheduler.fmtBj(System.currentTimeMillis())
                 if (f != null) {

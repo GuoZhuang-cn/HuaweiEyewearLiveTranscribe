@@ -5,35 +5,33 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
 
-    <!-- circular left lens -->
     <path
         android:fillColor="#00000000"
-        android:strokeColor="#FF1677FF"
+        android:strokeColor="#FF3D6BA8"
         android:strokeWidth="2.8"
         android:pathData="M38,54m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
 
-    <!-- circular right lens -->
     <path
         android:fillColor="#00000000"
-        android:strokeColor="#FF1677FF"
+        android:strokeColor="#FF3D6BA8"
         android:strokeWidth="2.8"
         android:pathData="M70,54m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
 
     <path
-        android:strokeColor="#FF1677FF"
+        android:strokeColor="#FF3D6BA8"
         android:strokeWidth="2.8"
         android:strokeLineCap="round"
         android:fillColor="#00000000"
         android:pathData="M50,54 L58,54" />
 
     <path
-        android:strokeColor="#FF1677FF"
+        android:strokeColor="#FF3D6BA8"
         android:strokeWidth="2.4"
         android:strokeLineCap="round"
         android:fillColor="#00000000"
         android:pathData="M26,54 L20,52" />
     <path
-        android:strokeColor="#FF1677FF"
+        android:strokeColor="#FF3D6BA8"
         android:strokeWidth="2.4"
         android:strokeLineCap="round"
         android:fillColor="#00000000"

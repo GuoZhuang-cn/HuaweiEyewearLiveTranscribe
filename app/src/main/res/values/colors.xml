@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="bg">#F3F6FA</color>
+    <!-- DESIGN.md tokens -->
+    <color name="background">#FFFFFF</color>
     <color name="surface">#FFFFFF</color>
-    <color name="accent">#1677FF</color>
-    <color name="accent_dim">#E8F3FF</color>
-    <color name="text_primary">#1F2329</color>
-    <color name="text_secondary">#6B7280</color>
-    <color name="text_hint">#9CA3AF</color>
-    <color name="danger">#D93025</color>
-    <color name="ok">#0F9D58</color>
-    <color name="warn">#F59E0B</color>
-    <color name="border">#E5E7EB</color>
-    <color name="chip_bg">#EEF2F7</color>
-    <color name="chip_on">#1677FF</color>
-    <color name="chip_on_text">#FFFFFF</color>
+    <color name="card">#F7FAFF</color>
+    <color name="border">#E4EEFA</color>
+    <color name="primary">#6B96D4</color>
+    <color name="primary_strong">#5A86C4</color>
+    <color name="primary_deep">#3D6BA8</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="text">#2F3E52</color>
+    <color name="text_secondary">#7A8FA6</color>
+    <color name="text_muted">#A8B8C8</color>
+    <color name="warning">#E8C46A</color>
+    <color name="danger">#E89A9A</color>
+
+    <!-- legacy aliases used by existing drawables -->
+    <color name="bg">@color/background</color>
+    <color name="accent">@color/primary</color>
+    <color name="accent_dim">#EEF4FB</color>
+    <color name="text_primary">@color/text</color>
+    <color name="text_hint">@color/text_muted</color>
+    <color name="ok">@color/primary</color>
+    <color name="chip_bg">#F7FAFF</color>
+    <color name="chip_on">@color/primary</color>
+    <color name="chip_on_text">@color/on_primary</color>
 </resources>
