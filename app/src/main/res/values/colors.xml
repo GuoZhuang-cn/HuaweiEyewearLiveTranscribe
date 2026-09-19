@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="bg">#F5F7FA</color>
+    <color name="bg">#F3F6FA</color>
     <color name="surface">#FFFFFF</color>
     <color name="accent">#1677FF</color>
-    <color name="accent_dim">#E6F4FF</color>
+    <color name="accent_dim">#E8F3FF</color>
     <color name="text_primary">#1F2329</color>
     <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#9CA3AF</color>
     <color name="danger">#D93025</color>
     <color name="ok">#0F9D58</color>
+    <color name="warn">#F59E0B</color>
+    <color name="border">#E5E7EB</color>
+    <color name="chip_bg">#EEF2F7</color>
+    <color name="chip_on">#1677FF</color>
+    <color name="chip_on_text">#FFFFFF</color>
 </resources>
